@@ -1,5 +1,4 @@
 .container {
-    height: 100%;
     margin: auto;
   }
 #project-title{
@@ -19,9 +18,7 @@
   }
   .legend{
     margin-top: 10px;
-    /* margin-bottom: -10px; */
     line-height: 1.4;
-    /* border: 1px solid white; */
   }
   .slick-dots button{
       position: absolute;
@@ -37,21 +34,26 @@
     -webkit-font-smoothing: antialiased;
   }
   @media(max-width: 600px){
-    .main-container{
-        height:100%;
-        /* width: 100%; */
-        position: relative;
+   .container{
+       width: auto;
+       height: auto;
+   }
+    .slick-slide.slick-active.pic{
+        width: 350px !important;
+    }
+    .slick-arrow.click-next::before{
+        position: relative !important;
+        left: 30px !important;
+    }
+    .slick-track{
+        height: 100% !important;
     }
     .pic img{
         width: 80vw;
         margin: auto;
     }
     .slick-prev, .slick-next{
-        font-size: 40px !important;
-    }
-    .slick-dots button{
-        position: absolute;
-        bottom: 20px;
+        font-size: 30px !important;
     }
     
 }

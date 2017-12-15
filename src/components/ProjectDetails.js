@@ -67,7 +67,7 @@ export default class ProjectDetails extends Component {
 
     render() {
         var settings = {
-            dots: true,
+            dots: false,
             infinite: true,
             speed: 500,
             slidesToShow: 1,
