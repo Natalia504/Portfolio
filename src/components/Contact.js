@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Navigation from './../components/Navigation'
+import FontAwesome from 'react-fontawesome'
 import './Contact.css'
 
 
@@ -16,8 +17,8 @@ export default class Contact extends Component {
 
                                 <input className='text name' type="text" name="name" placeholder='Name' />
                                 <input className='text email' type="email" name="email" placeholder='Email' />
-                                <input className='text subject' type="text" name ="subject" placeholder='Subject' />
-                                <textarea className='text message' type="text" placeholder='Your Message' name="message"/>
+                                <input className='text subject' type="text" name="subject" placeholder='Subject' />
+                                <textarea className='text message' type="text" placeholder='Your Message' name="message" />
                                 <button className='text btn' type="submit" >Send Message</button>
                             </div>
                         </form>
