@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import FontAwesome from 'react-fontawesome'
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import FontAwesome from 'react-fontawesome';
+import { Route, Link } from 'react-router-dom';
 import './Navigation.css';
 
 
@@ -12,16 +12,13 @@ export default class Navigation extends Component {
         const MenuLink = ({ label, to, activeOnlyWhenExact, icon }) => (
             <Route path={to} exact={activeOnlyWhenExact} children={({ match }) => (
                 <div className='move-pointer' >
-                    <Link style={{color: '#696666'}} to={to}><FontAwesome className='icon' name={icon} size='3x' />
+                    <Link style={{ color: '#696666' }} to={to}><FontAwesome className='icon' name={icon} size='3x' />
                         <p className='animated slideInDown' id='show-text'>{label}</p>
                         {match ? pointer : null}</Link>
                 </div>
             )} />
         )
-
         return (
-            
-                
             <div className='wrapper-nav'>
                 <div className='icons-container' >
                     <div className='icons' >
@@ -35,14 +32,14 @@ export default class Navigation extends Component {
                             <li>
                                 <MenuLink to="/contact" label="Contact" icon="envelope" />
                             </li>
-                            <li className='move-pointer'><a href="https://www.linkedin.com/in/natalia-calt/" target="_blank">
-                                <FontAwesome id='icon' style={{color: '#696666'}} name="linkedin" size='3x'/><p  className='animated slideInDown' id='show-text'>LinkedIn</p></a>
+                            <li className='move-pointer'><a href="https://www.linkedin.com/in/natalia-calt/" target="_blank" rel='noopener noreferrer'>
+                                <FontAwesome id='icon' style={{ color: '#696666' }} name="linkedin" size='3x' /><p className='animated slideInDown' id='show-text'>LinkedIn</p></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            
+
         )
     }
 }

@@ -41,8 +41,6 @@
     
 }
 .a:hover{
-    /* opacity: .3; */
-    /* background-size: 350px 250px; */
     transform: scale(1.1) 2s ease-in-out;
 }
 h2{
