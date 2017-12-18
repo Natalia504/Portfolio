@@ -88,5 +88,11 @@ li:hover #show-text {
         width: 170%;
         font-size: 70%;
     }
+    .animated .fadeInUp .slideInDown{
+            -webkit-transition: none !important;
+            -moz-transition: none !important;
+            -o-transition: none !important;
+            transition: none !important;
+    }
 
 }
