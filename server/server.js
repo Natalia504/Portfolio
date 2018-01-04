@@ -5,15 +5,15 @@ const express = require ('express'),
     port = 5050
 
 app.use(bodyParser.json());
-// app.use(express.static(`${__dirname}/../build`));
+app.use(express.static(`${__dirname}/../build`));
 
 
 
 
 
 
-// const path = require('path')
-// app.get('*', (req, res)=>{
-//   res.sendFile(path.join(__dirname, '../build/index.html'));
-// })
+const path = require('path')
+app.get('*', (req, res)=>{
+  res.sendFile(path.join(__dirname, '../build/index.html'));
+})
 app.listen(port, () => (console.log(`Listening on port ${port}`)));
