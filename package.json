@@ -26,5 +26,6 @@
     "eject": "react-scripts eject"
   }, 
   "main": "./server/server.js",
-  "proxy": "http://localhost:5050"
+  "proxy": "http://localhost:5050",
+  "homepage" : "http://myname.github.io/myapp"
 }
