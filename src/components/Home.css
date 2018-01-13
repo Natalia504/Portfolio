@@ -64,19 +64,32 @@ h3{
     margin: 5px;
     color: #696666;
 }
+.description{
+    border: 1px solid blue;
+}
 .description blockquote{
-    font-size: 70%;
+    font-size: 75%;
     font-style: italic;
     margin-top: 30px;
     padding-right: 5px;
     padding: 0 10px 0 0;
+}
+blockquote:before{
+    content: "\201C";
+}
+blockquote:after{
+    content: "\201C";
+}
+cite{
+    font-size: 70%;
 }
 .container-right {
     height: 100%;
     width:100%;
     display: grid;
     grid-template-areas: "container-right";
-    background-image:  url('../Assets/ProfilePic.jpg');
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url('../Assets/ProfilePic.jpg');
+    opacity: 1;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +100,7 @@ h3{
 
 @media (max-width: 600px){
    
-    .description blockquote{
+    .description blockquote cite{
         display: none;
     }
     
