@@ -64,8 +64,9 @@
     /* border: 1px solid orange; */
 }
 .content .about-me{
-    font-size: 85%;
-    margin-top: 10%;
+    font-size: 75%;
+    margin-top: 15px;
+    color: rgb(14, 13, 13);
     /* border: 1px solid green; */
 }
 
@@ -167,6 +168,7 @@ blockquote:after{
     }
     .content .about-me{
         padding:0 5px 0 5px ;
+        /* border: 1px solid green; */
     }
     h1{
         font-size: 30px;
