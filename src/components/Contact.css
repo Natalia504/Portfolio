@@ -8,7 +8,9 @@
     top: 50px;
     /* border: 2px solid red; */
 }
-
+.container-box-contact h2{
+    margin-bottom: 3%;
+}
 .email-container{
     width: 100%;
     display: grid;
@@ -54,6 +56,15 @@
 
 /* *********************************** */
 /* ********** MEDIA QUERY ************ */
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 1024px){
+  
+}
+@media only screen and (max-width: 768px){
+    
+}
 
 @media (max-width: 600px){
     .main-container{
@@ -81,6 +92,11 @@
             "btn" "btn";
     }
     .text{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .container-box-contact{
         width: 100%;
     }
 }

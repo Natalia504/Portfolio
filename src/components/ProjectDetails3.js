@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import allItems from './../Assets/ecommerce/all-items.png';
-import itemDetail from './../Assets/ecommerce/itemDetail.png';
-import cartPage from './../Assets/ecommerce/cart-page.png';
-import ScreenShot from './../Assets/ecommerce/Screen_Shot.png';
+import omnifood from '../Assets/omnifood/omnifood.png';
+import omnifood2 from '../Assets/omnifood/omnifood2.png';
+import omnifood3 from '../Assets/omnifood/omnifood3.png';
+import omnifood4 from '../Assets/omnifood/omnifood4.png';
+import omnifood5 from '../Assets/omnifood/omnifood5.png';
+import omnifood6 from '../Assets/omnifood/omnifood6.png';
 import './ProjectDetails.css';
+import './Home.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
@@ -21,8 +24,8 @@ function SampleNextArrow(props) {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
+              slidesToShow: 2,
+              slidesToScroll: 2,
               infinite: true,
             }
           },
@@ -86,7 +89,7 @@ function SamplePrevArrow(props) {
   );
 }
 
-export default class ProjectDetails extends Component {
+export default class ProjectDetails3 extends Component {
 
 
   render() {
@@ -104,31 +107,40 @@ export default class ProjectDetails extends Component {
         <Navigation />
         <div className='wrapper-main'>
           <div className='project-name'>
-            <h3> Personal Project &mdash; E-commerce <br/></h3>
+            <h3>Omnifood: web page for a non-existing business<br/></h3>
           </div>
           <div className='project-name'>
               <h4><a href="#">Video Tour</a><br/>
-            <a href='http://165.227.30.69:5050/' target='_blank' rel='noopener noreferrer'>Site Link</a></h4>
+              <a href='https://nataliacalt-omnifood.firebaseapp.com/' target='_blank' rel='noopener noreferrer'>Site Link</a></h4>
           </div>
           
 
           <Slider {...settings}>
             <div className='pic'>
-              <img src={ScreenShot} alt="Home" />
-              <p className='legend'>Ecommerce web app built using React/Redux, Node.js/Express, PostrgeSQL and other technologies. The navigation bar on top allows users to search for a specific item, as well as search items by category.</p>
+              <img src={omnifood} alt="landing page" />
+              <p className='legend'>Omnifood web page was built by following Udemy course on responsive design. It is built with HTML5, CSS3, and jQuery.</p>
             </div>
             <div className='pic'>
-              <img src={allItems} alt="all" />
-              <p className='legend'>"Cards" created using HTML5/CSS3, with FlexBox implementation. Clicking on the "card" will take you to the product details page. User can also add items to the cart, which will show in the upper right corner the total and the number of items currently in the cart. </p>
+              <img src={omnifood2} alt="what we do" />
+              <p className='legend'> </p>
             </div>
             <div className='pic'>
-              <img src={itemDetail} alt="item" />
-              <p className='legend'>Product details page allow you to inspect the item's details and Add it to the cart. </p>
+              <img src={omnifood3} alt="how it works" />
+              <p className='legend'> </p>
             </div>
             <div className='pic'>
-              <img src={cartPage} alt="cart" />
-              <p className='legend'>Shopping Cart view. Upper right corner shows the total and number of items in the cart. Stripe technology implemented for secure transactions. </p>
+              <img src={omnifood4} alt="we are in these cities" />
+              <p className='legend'></p>
             </div>
+            <div className='pic'>
+              <img src={omnifood5} alt="plans" />
+              <p className='legend'> </p>
+            </div>
+            <div className='pic'>
+              <img src={omnifood6} alt="mobile version" />
+              <p className='legend'>The website is completely responsive: as the screen get's smaller the navigation menu turns into a "hamburger" menu with "open/close" functionality.</p>
+            </div>
+        
           </Slider>
         </div>
       </div>

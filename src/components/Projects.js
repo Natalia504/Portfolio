@@ -9,18 +9,24 @@ export default class Projects extends Component {
     return (
       <div className='main-container'>
         <Navigation />
-        <div className='wrapper-main '>
+        <div className='wrapper-main'>
           <div className='container-box-projects'>
             <h2 className='animated fadeIn'>My Work</h2>
-            <p className='animated fadeIn'>Here you'll find my <a href='https://s3.us-east-2.amazonaws.com/resume-natalia/NATALIA+CALT.pdf' target='_blank' rel='noopener noreferrer'>Resume</a>. I always work on new projects to learn new technologies and tricks. Check out my recent projects below. I never stop creating!</p>
+            <p className='animated fadeIn'> I built this Portfolio from scratch and planning on adding more projects to it. I never stop creating and learning! I always work on new projects to learn new tricks and technologies. Check out my recent projects below and <a href='https://s3.us-east-2.amazonaws.com/resume-natalia/NATALIA+CALT.pdf' target='_blank' rel='noopener noreferrer'>resume here.</a></p>
             <div className='project-container animated fadeIn'>
-              <Link to='/projectDetails'><div className='box a'>
-              </div></Link>
-              <div className='box'>Coming soon</div>
-              <div className='box'>Coming soon</div>
-              <div className='box'>Coming soon</div>
-              <div className='box'>Coming soon</div>
-              <div className='box'>Coming soon</div>
+              <Link to='/projectDetails'>
+                <div className='box a'><h3>Ecommerce Site</h3>
+                  <h5><br />React / Redux<br />Node / Express<br />PostreSQL<br />Stripe API<br />CSS3</h5>
+                </div>
+              </Link>
+              <Link to='/projectDetails2'><div className='box b'><h3>Flashcard App</h3>
+                <h5><br />React / Redux<br />Node / Express<br />PostgeSQL<br />Auth0<br />CSS / SASS</h5>
+              </div>
+              </Link>
+              <Link to='/projectDetails3'><div className='box c'><h3>Omnifood Webpage</h3><h5><br/>HTML5<br/>CSS3 <br/>jQuery</h5></div>
+              </Link>
+              <div className='box d'><h3>Work in progress...</h3>
+              <h5>I'm currently building a new project in React <br/>but I'm not ready to share it yet.</h5></div>
             </div>
           </div>
         </div>

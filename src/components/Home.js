@@ -12,16 +12,25 @@ export default class Home extends Component {
         <div className='wrapper-main'>
           <div className='container-box-home '>
             <div className='container-left'>
-              <div className='content animated slideInDown'>
-                <div className='name'><h1 className='animated slideInDown'>Natalia Calt</h1></div>
-                <div className='title'><h3 className='animated slideInLeft'>Full Stack Web Developer</h3></div>
-                <div className='description'><blockquote className='animated slideInRight'>And, when you want something, all the universe conspires in helping you to achieve it.<cite>&mdash;Paulo Coelho, The Alchemist</cite></blockquote></div>
+              <div className='content animated'>
+                <div className='name'><h1 className='animated fadeIn slideInLeft'>Natalia Calt</h1></div>
+                <div className='title'><h4 className='animated fadeIn slideInRight'>Full Stack Web Developer</h4></div>
+                <div className='about-me animated fadeIn'>
+                No one reads "about me" section.
+                  Let me tell you about myself in person...
+                </div>
               </div>
             </div>
-            <div className='container-right animated fadeIn'></div>
+            <div className='container-right animated fadeIn'>
+            </div>
+          </div> 
+          <div className='description animated fadeIn'><blockquote>And, when you want something, all the universe conspires in helping you to achieve it.</blockquote>
+          <cite className='animated fadeIn'>&mdash;Paulo Coelho, The Alchemist</cite>
           </div>
         </div>
       </div>
     )
   }
 }
+
+ 

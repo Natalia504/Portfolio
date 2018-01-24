@@ -1,5 +1,4 @@
 
-
 .container-box-projects{
     width:100%;
     background: rgb(247, 241, 241);
@@ -9,53 +8,132 @@
     top: 50px;
     /* border: 3px solid red; */
 }
+.container-box-projects h2 {
+    /* border: 1px solid red; */
+    margin-bottom: 2%;
+}
+.container-box-projects p{
+    margin-bottom: 3%;
+}
+
 .project-container{
     width: 100%;
     height: 70%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 1%;
+    grid-gap: 2%;
     margin: auto;
     padding-bottom: 30px;
     /* border: 3px solid green; */
 }
 
 .box{
-    height: 180px;
+    height: 35vh;
     margin-bottom: 3%;
     border: .1px solid rgb(187, 178, 178);
-    transition: all .5s ease;
+    /* transition: all .5s ease; */
     font-size: 70%;
     font-style: italic;
     text-align: center;
-    vertical-align: center;
-    transition: all 2s;
+    transition: all .5s;
+    /* border: 1px solid blue; */
 }
 
 .a{
-    background-image: url('./../Assets/Screen_Shot.png');
-    background-size: 250px 180px;
-    background-repeat: no-repeat;
+    background-image: url('./../Assets/ecommerce/Screen_Shot.png');
+    background-position: center;
     background-size: cover;
-    
+    background-repeat: no-repeat;
+    position: relative;
 }
-.a:hover{
-    transform: scale(1.1) 2s ease-in-out;
+.b{
+    background-image: url('../Assets/techDecks/techdecks.info4_home.png');
+    background-color: rgb(199, 196, 196);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
 }
-h2{
-    margin-bottom: 30px;
+.c{
+    background-image: url('../Assets/omnifood/omnifood.png');
+    background-color: rgb(179, 189, 216);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.d{
+    background-image: linear-gradient(rgba(56, 56, 56, 0.7), rgba(0, 0, 0, 0.7)),url('../Assets/underConstruction.jpg');
+    background-color: rgb(179, 189, 216);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
-p{
-    font-size: 2.5vh;
-    line-height: 145%;
-    margin-bottom: 30px;
+.a h3, 
+.b h3,
+.c h3,
+.d h3 {
+width: 100%;
+height: 100%;
+margin-bottom: -2px;
+opacity: 0;
+position: absolute;
+
+color: #fff;
+left: 0; 
+bottom: 0;
+padding: 2em 1em;
+font-weight: 600;
+/* z-index: 2; */
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+background-color: rgba(0,0,0,.8);
+-webkit-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
 }
+.a h5, 
+.b h5,
+.c h5,
+.d h5 {
+width: 100%;
+margin-bottom: -2px;
+line-height: 140%;
+opacity: 0;
+position: absolute;
+color: #fff;
+padding: 6em 1em;
+font-weight: 400;
+}
+
+.a:hover h3,
+.a:hover h5,
+.b:hover h3,
+.b:hover h5,
+.c:hover h3,
+.c:hover h5,
+.d:hover h3,
+.d:hover h5{
+    opacity: 1;
+}
+
 
 /**************************************/
 /* ********** MEDIA QUERY ************ */
-
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 1024px){
+   
+}
+@media only screen and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 480px){
+    
+}
 @media(max-width: 600px){
    
    .main-container{
