@@ -16,16 +16,19 @@ export default class Home extends Component {
                 <div className='name'><h1 className='animated fadeIn slideInLeft'>Natalia Calt</h1></div>
                 <div className='title'><h4 className='animated fadeIn slideInRight'>Full Stack Web Developer</h4></div>
                 <div className='about-me animated fadeIn'>
-                In search of an awesome team to learn from and interesting projects to contribute to. 
+                  In search of an awesome team to learn from and interesting projects to contribute to.
                 No one has time to read a wall of text about my life story, so let me tell you about myself in person...
                 </div>
               </div>
             </div>
             <div className='container-right animated fadeIn'>
             </div>
-          </div> 
-          <div className='description animated fadeIn'><blockquote>And, when you want something, all the universe conspires in helping you to achieve it.</blockquote>
-          <cite className='animated fadeIn'>&mdash;Paulo Coelho, The Alchemist</cite>
+          </div>
+          <div className='description animated fadeIn'>
+            <p>And, when you want something, all the universe conspires in helping you to achieve it.
+            </p>
+            <h5 className='animated fadeIn'>&mdash;Paulo Coelho, The Alchemist
+            </h5>
           </div>
         </div>
       </div>
@@ -33,4 +36,3 @@ export default class Home extends Component {
   }
 }
 
- 

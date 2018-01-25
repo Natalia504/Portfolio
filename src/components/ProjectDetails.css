@@ -74,7 +74,7 @@
 
 
 .pic2 img {
-    width: 35%;
+    width: 40%;
     margin: auto;
 }
 .pic2 p{
@@ -89,7 +89,9 @@
     
 }
 @media only screen and (max-width: 1024px){
-    
+    .main-container{
+        background-position: 80%;
+    }
     .pic img{
         margin: auto;
     }
@@ -100,9 +102,18 @@
     }
 }
 @media only screen and (max-width: 768px){
+    .main-container{
+        background-position: 70%;
+    }
+    .container-rigth{
+        width: 130%;
+    }
     .pic img{
         width: 100%;
         margin: auto;
+    }
+    .pic2 img{
+        width: 50%;
     }
     .pic p{
         width: 80%;
@@ -111,46 +122,30 @@
     }
 }
 
-@media(max-width: 600px){
-   .container{
-       width: 100%;
-       /* height: auto; */
-   }
+@media only screen and (max-width: 600px){
+    .main-container{
+        background-position: 70%;
+    }
    .project-name h3{
        font-size: 100%;
    }
-    /* .slick-slide.slick-active.pic{
-        width: 350px !important;
-    }
-    .slick-arrow.click-next::before{
-        position: relative !important;
-        left: 30px !important;
-    }
-    .slick-track{
-        height: 100% !important;
-    } */
     .pic{
         width: 100%;
     }
     .pic img{
-        width: 100%;
+        width: 90%;
         margin: auto;
+    }
+    .pic2 img{
+        width: 60%;
     }
     .pic p{
         width: 80%;
         margin-left: 50px;
         /* border: 1px solid red; */
     }
-    /* .slick-prev, .slick-next{
-        font-size: 30px !important;
-    } */
-    
 }
 @media only screen and (max-width: 480px){
-    .container{
-        width: 100%;
-        /* height: auto; */
-    }
    
 }
 

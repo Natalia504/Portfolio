@@ -7,6 +7,7 @@
     background-image: url('./../Assets/lukas-blazek.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 100%;
     /* position: fixed; */
 }
 .wrapper-main {
@@ -65,33 +66,31 @@
     animation-duration: 2s;
 }
 
-.container-left .description{
+.description{
+    width: 100%;
+    /* height: 100%; */
     display: block;
-    height: 50%;
-    margin-bottom: 0;
-    /* border: 1px solid red; */
 }
-blockquote{
-    font-size: 90%;
+.description p{
+    font-size: 100%;
     color: rgb(66, 65, 65);
     font-style: italic;
     border-left: none;
-    padding: 5px 0 0 10px;
-    margin: 7% 0 0 15%;
+    margin-top: 8%;
+    margin-bottom: 0;
     font-family: FontAwesome;
 }
-.description cite{
-    font-size: 80%;
+.description h5{
+    display: block;
+    font-size: 90%;
     color: rgb(66, 65, 65);
     font-family: FontAwesome;
-    margin: 0 0 0 16%;
+    /* border: 1px solid red; */
 } 
-
-
-blockquote:before{
+.description p:before{
     content: "\201C";
 }
-blockquote:after{
+.description p:after{
     content: "\201C";
 }
 
@@ -124,19 +123,22 @@ blockquote:after{
     .container-right{
         width: 100%;
     }
+    /* .description cite{
+        margin-left: 85px ;
+    } */
   
 }
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 768px){
 
-    blockquote{
+    .description p{
         font-size: 80%;
-        margin: 10% 0 0 15%;
+        margin: 60px 0 0 0;
     }
 }
 
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
    
-    .description, blockquote, cite{
+    .description p, .description h5{
         display: none;
     }
     
@@ -162,7 +164,7 @@ blockquote:after{
         text-align: center;
     }
     .content .about-me{
-        padding:0 5px 0 5px ;
+        padding:0 10px 0 10px ;
         /* border: 1px solid green; */
     }
     h1{
