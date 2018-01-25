@@ -20,7 +20,7 @@
 
 .container-box-home{
     width: 100%;
-    height: 500px;
+    height: 450px;
     position: relative;
     top: 50px;
     background: rgb(247, 241, 241);
@@ -34,14 +34,6 @@
     display: flex;
     justify-content: center;
     /* background-color: red; */
-}
-
-.animated{
-    animation-duration: .8s;
-}
-.icons.animated.slideInDown{
-    animation-delay: 1s;
-    color: grey;
 }
 
 .container-left {
@@ -68,6 +60,9 @@
     margin-top: 15px;
     color: rgb(14, 13, 13);
     /* border: 1px solid green; */
+}
+.about-me.fadeIn{
+    animation-duration: 2s;
 }
 
 .container-left .description{

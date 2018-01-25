@@ -73,7 +73,7 @@ function SamplePrevArrow(props) {
             }
           },
           {
-            breakpoint: 375,
+            breakpoint: 480,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -104,7 +104,7 @@ export default class ProjectDetails extends Component {
         <Navigation />
         <div className='wrapper-main'>
           <div className='project-name'>
-            <h3> Personal Project &mdash; E-commerce <br/></h3>
+            <h3> Personal Project: E-commerce clone</h3>
           </div>
           <div className='project-name'>
               <h4><a href="#">Video Tour</a><br/>

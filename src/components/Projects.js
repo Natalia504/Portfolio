@@ -12,7 +12,7 @@ export default class Projects extends Component {
         <div className='wrapper-main'>
           <div className='container-box-projects'>
             <h2 className='animated fadeIn'>My Work</h2>
-            <p className='animated fadeIn'> I built this Portfolio from scratch and planning on adding more projects to it. I never stop creating and learning! I always work on new projects to learn new tricks and technologies. Check out my recent projects below and <a href='https://s3.us-east-2.amazonaws.com/resume-natalia/NATALIA+CALT.pdf' target='_blank' rel='noopener noreferrer'>resume here.</a></p>
+            <p className='animated fadeIn'>This Portfolio is built from ground up and I'm planning on adding more projects to it. I never stop creating and always work on new projects to learn new tricks and technologies. Check out my recent projects below and <a href='https://s3.us-east-2.amazonaws.com/resume-natalia/NATALIA+CALT.pdf' target='_blank' rel='noopener noreferrer'>resume here.</a></p>
             <div className='project-container animated fadeIn'>
               <Link to='/projectDetails'>
                 <div className='box a'><h3>Ecommerce Site</h3>

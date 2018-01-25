@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import landing from '../Assets/techDecks/techdecks.info1_landing.png';
-import login from '../Assets/techDecks/techdecks.info2_auth0_login.png';
 import google from '../Assets/techDecks/techdecks.info3_google_signin_.png';
-import home from '../Assets/techDecks/techdecks.info4_home.png';
 import menu from '../Assets/techDecks/techdecks.info5_menu.png';
 import search from '../Assets/techDecks/techdecks.info6_search.png';
 import myDecks from '../Assets/techDecks/techdecks.info7_myDecks.png';
@@ -31,8 +29,8 @@ function SampleNextArrow(props) {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToShow: 1,
+              slidesToScroll: 1,
               infinite: true,
             }
           },
@@ -83,7 +81,7 @@ function SamplePrevArrow(props) {
             }
           },
           {
-            breakpoint: 375,
+            breakpoint: 480,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,

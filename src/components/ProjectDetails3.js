@@ -24,8 +24,8 @@ function SampleNextArrow(props) {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToShow: 1,
+              slidesToScroll: 1,
               infinite: true,
             }
           },
@@ -76,7 +76,7 @@ function SamplePrevArrow(props) {
             }
           },
           {
-            breakpoint: 375,
+            breakpoint: 480,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -107,7 +107,7 @@ export default class ProjectDetails3 extends Component {
         <Navigation />
         <div className='wrapper-main'>
           <div className='project-name'>
-            <h3>Omnifood: web page for a non-existing business<br/></h3>
+            <h3>Omnifood: static web page for a business</h3>
           </div>
           <div className='project-name'>
               <h4><a href="#">Video Tour</a><br/>
