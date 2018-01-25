@@ -45,6 +45,7 @@
 
 .a{
     background-image: url('./../Assets/ecommerce/Screen_Shot.png');
+    background-color: rgb(199, 196, 196);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +61,7 @@
 }
 .c{
     background-image: url('../Assets/omnifood/omnifood.png');
-    background-color: rgb(179, 189, 216);
+    background-color: rgb(199, 196, 196);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -13,82 +13,6 @@ import Slider from 'react-slick';
 import Navigation from './../components/Navigation';
 
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-          }]
-      }}
-      onClick={onClick}
-    ></div>
-  );
-}
-
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-          }]
-      }}
-      onClick={onClick}>
-    </div>
-  );
-}
-
 export default class ProjectDetails3 extends Component {
 
 
@@ -98,9 +22,7 @@ export default class ProjectDetails3 extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />
+      slidesToScroll: 1
     };
     return (
       <div className='main-container container animated fadeIn'>
