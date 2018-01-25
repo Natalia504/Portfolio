@@ -1,5 +1,6 @@
 {
   "projects": {
-    "staging": "natalia-portfolio"
+    "staging": "natalia-portfolio",
+    "default": "natalia-portfolio"
   }
 }
