@@ -29,7 +29,7 @@ export default class ProjectDetails extends Component {
             <h3> Personal Project: E-commerce clone</h3>
           </div>
           <div className='project-name'>
-              <h4><a href="#">Video Tour</a><br/>
+              <h4><a href="https://youtu.be/0zlThN-dr90" target='_blank' rel='noopener noreferrer'>Video Tour</a><br/>
             <a href='http://165.227.30.69:5050/' target='_blank' rel='noopener noreferrer'>Site Link</a></h4>
           </div>
           

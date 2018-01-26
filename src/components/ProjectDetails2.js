@@ -37,7 +37,7 @@ export default class ProjectDetails2 extends Component {
             <h3> Group Project: TechDecks &mdash; flashcard app <br/></h3>
           </div>
           <div className='project-name'>
-              <h4><a href="#">Video Tour</a><br/>
+              <h4><a href="https://youtu.be/342xlIa2_vc" target='_blank' rel='noopener noreferrer'>Video Tour</a><br/>
             </h4>
           </div>
           
