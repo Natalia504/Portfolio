@@ -1,6 +1,11 @@
-
+.wrapper-main-projects{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
 .container-box-projects{
     width:100%;
+    height: 100%;
     background: rgb(247, 241, 241);
     padding: 30px;
     padding-bottom: 5px !important;
@@ -11,9 +16,11 @@
 .container-box-projects h2 {
     /* border: 1px solid red; */
     margin-bottom: 2%;
+    padding-left: 10px;
 }
 .container-box-projects p{
-    margin-bottom: 3%;
+    padding: 10px;
+    /* margin-bottom: 3%; */
     font-size: 80%;
     color: rgb(14, 13, 13);
 }
@@ -21,7 +28,7 @@
 
 .project-container{
     width: 100%;
-    height: 70%;
+    height: 100%; 
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -42,7 +49,16 @@
     transition: all .5s;
     /* border: 1px solid blue; */
 }
-
+.box a{
+    font-size: 120%;
+    line-height: 125%;
+    color: rgb(85, 134, 241);
+}
+.box a:hover{
+    color: rgb(10, 74, 212);
+    font-weight: 700;
+    text-shadow: 10px;
+}
 
 .a{
     background-image: url('./../Assets/ecommerce/Screen_Shot.png');
@@ -77,40 +93,26 @@
     position: relative;
 }
 
-.a h3, 
+/* .a h3, 
 .b h3,
 .c h3,
-.d h3 {
-width: 100%;
-height: 100%;
-margin-bottom: -2px;
-opacity: 0;
-position: absolute;
-
-color: #fff;
-left: 0; 
-bottom: 0;
-padding: 2em 1em;
-font-weight: 600;
-/* z-index: 2; */
--webkit-box-sizing: border-box;
-box-sizing: border-box;
-background-color: rgba(0,0,0,.8);
--webkit-transition: opacity .3s ease-in-out;
-transition: opacity .3s ease-in-out;
-}
-.a h5, 
-.b h5,
-.c h5,
-.d h5 {
-width: 100%;
-margin-bottom: -2px;
-line-height: 140%;
-opacity: 0;
-position: absolute;
-color: #fff;
-padding: 6em 1em;
-font-weight: 400;
+.d h3  */
+.box h3 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -2px;
+    opacity: 0;
+    position: absolute;
+    color: #fff;
+    left: 0; 
+    bottom: 0;
+    padding: 1em 1em;
+    font-weight: 600;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.8);
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
 }
 
 .a:hover h3,
@@ -124,21 +126,63 @@ font-weight: 400;
     opacity: 1;
 }
 
+.box h4{
+    color: rgb(164, 167, 164);
+    margin: 7px 0 ;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.box h5{
+    width: 100%;
+    margin-bottom: -2px;
+    line-height: 140%;
+    opacity: 0;
+    position: absolute;
+    color: rgb(223, 217, 217);
+    padding: 2.5em 1em;
+    font-weight: 400;
+}
+
+
+
 
 /**************************************/
 /* ********** MEDIA QUERY ************ */
 @media only screen and (max-width: 1200px){
-    
+    .wrapper-main-projects{
+        height: 100%;
+    }
 }
+
 @media only screen and (max-width: 1024px){
-   
+    .wrapper-main-projects{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }
+   .box h3{
+       font-size: 120%;
+   }
+   .box h5{
+    padding: 2em 1em;
+    }
 }
+
 @media only screen and (max-width: 768px){
-    
+    .wrapper-main-projects{
+        width: 95%;
+        height: 100%;
+        margin: auto;
+    }
+    .box h3{
+        font-size: 100%;
+    }
+    .box h5{
+        padding: 1.5em 1em;
+    }
 }
-@media only screen and (max-width: 480px){
-    
-}
+
 @media(max-width: 600px){
    
    .main-container{
@@ -150,12 +194,13 @@ font-weight: 400;
     .container-box-projects{
         display: block;
         height: 100%;
-        margin: auto;
-        /* margin-top: 1px; */
-        /* border: 1px solid red; */
+        /* margin: auto; */
+        padding: 10px;
+    }
+    .box h3{
+        font-size: 110%;
     }
     .project-container{
-        /* width: 100%; */
         display: block;
         /* border: 1px solid blue; */
     }
@@ -163,3 +208,22 @@ font-weight: 400;
         margin: 10px;
     }
 }
+
+    @media only screen and (max-width: 480px){
+     
+        .wrapper-main-projects{
+            width: 95%;
+            height: 100%;
+            margin: 0 10px;
+        }
+        .container-box-projects{
+            padding: 10px;
+        }
+        .box h3{
+            padding: 2em 1em;
+            font-size: 110%;
+        }
+        .box h5{
+            padding: 2em 1em;
+        }
+    }
