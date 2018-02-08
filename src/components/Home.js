@@ -14,7 +14,7 @@ export default class Home extends Component {
             <div className='container-left'>
               <div className='content animated'>
                 <div className='name'><h1 className='animated fadeIn slideInLeft'>Natalia Calt</h1></div>
-                <div className='title'><h4 className='animated fadeIn slideInRight'>Full Stack Web Developer</h4></div>
+                <div className='title'><h5 className='animated fadeIn slideInRight'>Full Stack Web Developer</h5></div>
                 <div className='about-me animated fadeIn'>
                   In search of an awesome team to learn from and interesting projects to contribute to.
                 No one has time to read a wall of text about my life story, so let me tell you about myself in person...

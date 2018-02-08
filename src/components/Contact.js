@@ -11,7 +11,7 @@ export default class Contact extends Component {
                 <Navigation />
                 <div className='wrapper-main'>
                     <div className='container-box-contact'>
-                        <h2 className='animated fadeIn'>Contact me</h2>
+                        <h2 className='animated fadeIn'>Contact Me</h2>
                         <form method="POST" action="http://formspree.io/natalia.calt@gmail.com">
                             <div className='email-container animated fadeIn'>
                                 <input className='text name' type="text" name="name" placeholder='Name' />

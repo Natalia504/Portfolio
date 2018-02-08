@@ -2,14 +2,18 @@
 
 .container-box-contact{
     width: 100%;
-    background: rgb(247, 241, 241);
+    /* background: rgb(247, 241, 241); */
+    background: #f3ecec;
     padding: 30px;
+    margin-bottom: 20px;
     position: relative;
     top: 50px;
     /* border: 2px solid red; */
 }
 .container-box-contact h2{
     margin-bottom: 3%;
+    font-size: 120%;
+    font-family: 'Open Sans';
 }
 .email-container{
     width: 100%;
@@ -32,21 +36,30 @@
 .name{
     grid-area: name;
     z-index: 1;
+    font-size: 80%;
     /* border: 1px solid red; */
 }
 .email{
     grid-area: email;
+    font-size: 80%;
+
 }
 .subject{
     grid-area: subject;
+    font-size: 80%;
+
 }
 .message{
     height: 300px;
     grid-area: message;
+    font-size: 80%;
+
 }
 .btn{
     width: 50%;
     height: 100%;
+    font-size: 60%;
+    padding: 10px;
     grid-area: btn;
     color: white;
     /* margin-top: 10px; */
@@ -67,13 +80,13 @@
 }
 
 @media (max-width: 600px){
-    .main-container{
-        height: 100%;
+    .wrapper-main{
+        height: 700px;
     }
   
     .container-box-contact{
         width: 100%;
-        /* height: 100%; */
+        height: 570px;
         padding: 20px;
         margin-top: 0px;
         margin: auto;

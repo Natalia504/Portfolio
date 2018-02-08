@@ -1,11 +1,31 @@
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body, html{
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px; 
+  width: 100%;
+  min-height: 100vh;  
+  /* font-family: 'Source Sans Pro', sans-serif; */
   font-size: 20px;
-  text-rendering: optimizeLegibility;
- 
+  color: rgb(63, 61, 61);
+
+
+  background: #ddd6f3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f3cac8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+
+
+
+  /* background-image: url('./Assets/lukas-blazek.jpg'); */
+  /* background-image: url('./Assets/olu-eletu-27966.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
 }
