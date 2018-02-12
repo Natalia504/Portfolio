@@ -16,13 +16,13 @@
     /* border: 3px solid red; */
 }
 .container-box-projects h2 {
-    font-family: 'Open Sans';
-    font-size: 120%;
+    /* font-family: 'Open Sans'; */
+    font-size: 110%;
     margin-bottom: 2%;
 }
 .container-box-projects .about-me{
-    padding-bottom: 10px;
-    font-size: 75%;
+    padding-bottom: 20px;
+    font-size: 83%;
     color: rgb(14, 13, 13);
 }
 

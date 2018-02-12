@@ -39,7 +39,7 @@
 }
 
 .name h1{
-    font-size: 150%;
+    font-size: 180%;
     font-weight: 400;
     color: rgb(48, 45, 45);
 }
@@ -52,9 +52,9 @@
 
 }
 .content .about-me{
-    font-size: 75%;
+    font-size: 85%;
     margin-top: 15px;
-    color: rgb(14, 13, 13);
+    color: rgb(49, 47, 47);
     /* border: 1px solid green; */
 }
 .about-me.fadeIn{

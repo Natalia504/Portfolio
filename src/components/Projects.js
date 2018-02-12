@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from './../components/Navigation';
 import './Projects.css';
-import { Link } from 'react-router-dom';
 
 
 export default class Projects extends Component {
@@ -42,7 +41,7 @@ export default class Projects extends Component {
               <div className='box c'><h3>Omnifood Webpage</h3><br />
                 <h5>
                   <a href='https://nataliacalt-omnifood.firebaseapp.com/' target='_blank' rel='noopener noreferrer'>Site Link</a><br />
-                  <a href="#" target='_blank' rel='noopener noreferrer'>Video Tour</a><br />
+                  <a href="#top" target='_blank' rel='noopener noreferrer'>Video Tour</a><br />
                   <h4>Technologies:</h4>
                   HTML5<br />
                   CSS3 <br />
