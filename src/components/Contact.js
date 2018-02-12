@@ -25,7 +25,7 @@ export default class Contact extends Component {
                 <div className='wrapper-main'>
                     <div className='container-box-contact'>
                         <h2 className='animated fadeIn'>Contact Me</h2>
-                        <div className='contact-icons'>
+                        <div className='contact-icons animated fadeIn'>
                             <a className='icon-hover' href="https://github.com/Natalia504" target="_blank" rel='noopener noreferrer'>
                                 <FontAwesome name='github' size='2x' />
                             </a>
