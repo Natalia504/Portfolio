@@ -42,7 +42,6 @@ export default class Projects extends Component {
               <div className='box c'><h3>Omnifood Webpage</h3><br />
                 <h5>
                   <a href='https://nataliacalt-omnifood.firebaseapp.com/' target='_blank' rel='noopener noreferrer'>Site Link</a><br />
-                  <a href="#" target='_blank' rel='noopener noreferrer'>Video Tour</a><br />
                   <h4>Technologies:</h4>
                   HTML5<br />
                   CSS3 <br />
@@ -50,8 +49,14 @@ export default class Projects extends Component {
               </h5>
               </div>
 
-              <div className='box d'><h3>Work in progress...</h3><br /><br />
-                <h5>I'm currently building a new project in React <br />but it's not ready to be shared yet.</h5></div>
+              <div className='box d'><h3>Weather App</h3><br />
+                <h5>
+                <a href='https://github.com/Natalia504/react-native-weatherApp' target='_blank' rel='noopener noreferrer'>Link to project</a><br />
+                <h4>Technologies:</h4>
+                  React-Native<br />
+                  Weather Underground API<br />
+                </h5>
+              </div>
             </div>
           </div>
         </div>

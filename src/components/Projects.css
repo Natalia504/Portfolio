@@ -94,10 +94,10 @@
 }
 .d{
     grid-area: d;
-    background-image: linear-gradient(rgba(56, 56, 56, 0.7), rgba(0, 0, 0, 0.7)),url('../Assets/underConstruction.jpg');
-    background-color: rgb(179, 189, 216);
+    background-image: url('../Assets/Denver.png');
+    background-color: rgb(199, 196, 196);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     position: relative;
 }
