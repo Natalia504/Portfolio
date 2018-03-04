@@ -32,7 +32,7 @@ export default class Navigation extends Component {
                             <li>
                                 <MenuLink to="/contact" label="Contact" icon="envelope" />
                             </li>
-                            <li className='move-pointer'><a href="https://www.linkedin.com/in/natalia-calt/" target="_blank" rel='noopener noreferrer'>
+                            <li className='move-pointer'><a href="https://www.linkedin.com/in/NataliaCalt/" target="_blank" rel='noopener noreferrer'>
                                 <FontAwesome id='icon' style={{ color: '#696666' }} name="linkedin" size='3x' /><p className='animated slideInDown' id='show-text'>LinkedIn</p></a>
                             </li>
                         </ul>

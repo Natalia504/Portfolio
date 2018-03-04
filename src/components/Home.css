@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 .wrapper-main {
     width: 60%;
     height: 100%;
@@ -39,8 +41,9 @@
 }
 
 .name h1{
-    font-size: 180%;
-    font-weight: 400;
+    font-Family:'Pacifico', cursive;
+    font-size: 230%;
+    font-weight: 600;
     color: rgb(48, 45, 45);
 }
 
