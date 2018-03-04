@@ -9,7 +9,7 @@ built in React.js and hosted on Firebase.
 
 + Hover on to the project to see additional information:
 
-<img src='./src/Assets/readMeAssets/project_on_hover.png'/>
+<img src='./src/Assets/readMeAssets/info_on_hover.png'/>
 
 ### Contact Page
 <img src='./src/Assets/readMeAssets/nataliacalt-contact.png'>
@@ -17,6 +17,6 @@ built in React.js and hosted on Firebase.
  Feel free to visit live version: https://www.nataliacalt.com/
  
 ***
-###Author
+### Author
 Natalia Calt
 
