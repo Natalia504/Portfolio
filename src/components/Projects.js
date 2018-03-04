@@ -2,12 +2,18 @@ import React, { Component } from 'react';
 import Navigation from './../components/Navigation';
 import './Projects.css';
 import { Link } from 'react-router-dom';
+import Helmet from 'react-helmet';
+
 
 
 export default class Projects extends Component {
   render() {
     return (
       <div className='main-container'>
+      <Helmet>
+        <meta name='description' content='Natalia Calt - My Work' />
+        <title>N.Calt - Work</title>
+      </Helmet>
         <Navigation />
         <div className='wrapper-main-projects'>
           <div className='container-box-projects'>

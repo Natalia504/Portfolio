@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
 import Navigation from './../components/Navigation';
 import './Contact.css';
+import Helmet from 'react-helmet';
 
 
 export default class Contact extends Component {
@@ -12,7 +13,7 @@ export default class Contact extends Component {
         }
     }
 
-    showNumber(){
+    showNumber() {
         this.setState({
             clicked: !this.state.clicked
         })
@@ -21,6 +22,11 @@ export default class Contact extends Component {
     render() {
         return (
             <div className='main-container'>
+                <Helmet>
+                    <meta name='description' content='Natalia Calt - Contact' />
+                    <title>N.Calt - Contact</title>
+                    
+                </Helmet>
                 <Navigation />
                 <div className='wrapper-main'>
                     <div className='container-box-contact'>
@@ -36,13 +42,13 @@ export default class Contact extends Component {
                                 ? (<a href="#top" onClick={() => this.showNumber()}>
                                     <div className='phone'> {'(504)450-2804'} </div>
                                 </a>
-                            ) : <a className='icon-hover' href="#top" onClick={() => this.showNumber()}>
-                                <FontAwesome name='phone-square' size='2x' />
-                            </a>
+                                ) : <a className='icon-hover' href="#top" onClick={() => this.showNumber()}>
+                                    <FontAwesome name='phone-square' size='2x' />
+                                </a>
                             }
                         </div>
                         <div className='about-me animated fadeIn'>
-                            I'd love to chat with you over coffee about any professional or educational opportunities. Contact me via email or phone number, or leave your contact information below.
+                            I'd love to chat with you over coffee about professional or educational opportunities. Contact me via email or phone number, or leave your contact information below.
                         </div>
                         <form method="POST" action="http://formspree.io/natalia.calt@gmail.com">
                             <div className='email-container animated fadeIn'>
