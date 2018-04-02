@@ -17,7 +17,7 @@ import {Helmet} from 'react-helmet';
       </Helmet>
     <Navigation />
     <div className='wrapper-main'>
-      <div className='container-box-home ' itemScope itemType={'http://schema.org/Person'}>
+      <div className='container-box-home' itemScope itemType={'http://schema.org/Person'}>
         <div className='container-left'>
           <div className='content animated'>
             <div className='name'><h1 className='animated fadeIn slideInLeft' itemProp={'name'}>Natalia Calt</h1></div>
