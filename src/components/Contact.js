@@ -24,8 +24,8 @@ export default class Contact extends Component {
             <div className='main-container'>
                 <Helmet>
                     <meta name='description' content='Natalia Calt - Contact' />
-                    <title>N.Calt - Contact</title>
-                    
+                    <title>Contact Me</title>
+
                 </Helmet>
                 <Navigation />
                 <div className='wrapper-main'>

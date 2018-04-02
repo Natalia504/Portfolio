@@ -10,10 +10,10 @@ export default class Projects extends Component {
   render() {
     return (
       <div className='main-container'>
-      <Helmet>
-        <meta name='description' content='Natalia Calt - My Work' />
-        <title>N.Calt - Work</title>
-      </Helmet>
+        <Helmet>
+          <meta name='description' content='Natalia Calt - My Work' />
+          <title>My Work</title>
+        </Helmet>
         <Navigation />
         <div className='wrapper-main-projects'>
           <div className='container-box-projects'>
@@ -60,8 +60,8 @@ export default class Projects extends Component {
 
               <div className='box d'><h3>Weather App</h3><br />
                 <h5>
-                <a href='https://github.com/Natalia504/react-native-weatherApp' target='_blank' rel='noopener noreferrer'>Link to project</a><br />
-                <h4>Technologies:</h4>
+                  <a href='https://github.com/Natalia504/react-native-weatherApp' target='_blank' rel='noopener noreferrer'>Link to project</a><br />
+                  <h4>Technologies:</h4>
                   React-Native<br />
                   Weather Underground API<br />
                 </h5>
