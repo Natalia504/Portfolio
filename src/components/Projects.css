@@ -67,7 +67,7 @@
 
 .a{
     grid-area: a;
-    background-image: url('./../Assets/ecommerce/Screen_Shot.png');
+    background-image: url('./../Assets/gcrew-shot.png');
     background-color: rgb(199, 196, 196);
     background-position: center;
     background-size: cover;
@@ -85,7 +85,7 @@
 }
 .c{
     grid-area: c;
-    background-image: url('../Assets/omnifood/omnifood.png');
+    background-image: url('../Assets/omnifood-full.png');
     background-color: rgb(199, 196, 196);
     background-position: center;
     background-size: cover;
