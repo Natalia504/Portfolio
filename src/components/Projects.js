@@ -58,12 +58,25 @@ export default class Projects extends Component {
               </h5>
               </div>
 
-              <div className='box d'><h3>Weather App</h3><br />
+              {/* <div className='box d'><h3>Weather App</h3><br />
                 <h5>
                   <a href='https://github.com/Natalia504/react-native-weatherApp' target='_blank' rel='noopener noreferrer'>Link to project</a><br />
                   <h4>Technologies:</h4>
                   React-Native<br />
                   Weather Underground API<br />
+                </h5>
+              </div> */}
+              <div className='box d'><h3>Library App</h3><br />
+                <h5>
+                  <a href='https://techtonic-library.herokuapp.com/' target='_blank' rel='noopener noreferrer'>Site Link</a><br />
+                  <a href='https://github.com/ncalt2000/library_node' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                  <h4>Technologies:</h4>
+                  jQuery<br />
+                  Node.js<br />
+                  Express.js<br/>
+                  MongoDB/Mongoose<br/>
+                  Bcrypt&JWT<br/>
+                  Drift Chat Bot <br/>
                 </h5>
               </div>
             </div>

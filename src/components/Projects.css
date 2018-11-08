@@ -94,7 +94,7 @@
 }
 .d{
     grid-area: d;
-    background-image: url('../Assets/Denver.png');
+    background-image: url('../Assets/library.png');
     background-color: rgb(199, 196, 196);
     background-position: center;
     background-size: contain;
