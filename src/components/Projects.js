@@ -76,6 +76,7 @@ export default class Projects extends Component {
                   Express.js<br/>
                   MongoDB/Mongoose<br/>
                   Bcrypt&JWT<br/>
+                  Bootstrap 4 <br/>
                   Drift Chat Bot <br/>
                 </h5>
               </div>
